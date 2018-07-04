@@ -210,12 +210,11 @@ There are two types of variables in Java:
 - **Primitives** -  A primitive can be one of eight types: **char, boolean, byte, short, int, long, double, or float**. Once a primitive has been declared, its primitive type can never change, although in most cases its value can change.
 - **Reference variables** A reference variable is used to refer to (or access) an object. A reference variable is declared to be of a specific type, and that type can never be changed. A reference variable can be used to refer to any object of the declared type or of a subtype of the declared type (a compatible type). We&#39;ll talk a lot more about using a reference variable to refer to a subtype in Chapter 2, when we discuss polymorphism.
 
- ##### imagem da tabela que está no documento ####
+ ![](https://github.com/jether2011/java8-study-general/blob/master/image.png)
 
 19. **Instance Variables**
 
 - **Instance** variables are defined inside the class, but outside of any method, and are initialized only when the class is instantiated. Instance variables are the fields that belong to each unique object.
-
 - Can use any of the four access levels (which means they can be marked with any of the three access modifiers)
 - Can be marked final
 - Can be marked transient
@@ -227,8 +226,7 @@ There are two types of variables in Java:
 
 **CHAPTER 02**
 
-1. **Encapsulation **,
-   **IS-A, HAS-A - (OCA Objective 6.5)**
+1. **Encapsulation,IS-A, HAS-A - (OCA Objective 6.5)**
 
 - Encapsulation helps hide implementation behind an interface (or API).
 - Encapsulated code has two features:
@@ -237,7 +235,7 @@ There are two types of variables in Java:
 - IS-A refers to inheritance or implementation.
 - IS-A is expressed with the keyword extends or implements.
 - IS-A, &quot;inherits from,&quot; and &quot;is a subtype of&quot; are all equivalent expressions.
-- HAS-A means an instance of one class &quot;has a&quot; reference to an instance of another class or another instance of the same class. \*HAS-A is NOT on the exam, but it&#39;s good to know.
+- HAS-A means an instance of one class &quot;has a&quot; reference to an instance of another class or another instance of the same class. HAS-A is NOT on the exam, but it&#39;s good to know.
 
 2. **Inheritance (OCA Objective 7.1)**
 
