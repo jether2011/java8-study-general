@@ -9,6 +9,9 @@ package com.jetherrodrigues.oca.revision;
 public class _C {
 	private static int $;
 	public static void main(String[] args) {
+		/**
+		 * the variable need be initialize
+		 */
 		String a_b;
 		System.out.println($);
 		//System.out.println(a_b);
