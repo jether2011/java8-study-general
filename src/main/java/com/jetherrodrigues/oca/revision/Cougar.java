@@ -4,10 +4,10 @@ package com.jetherrodrigues.oca.revision;
  * Assessment test {3}
  * @author jether.rodrigues
  *
- * The abstract class try to override the getTailLength() method but closing the visibility
- * it is not allowed beacause the subclass cant be closer than superclass.
+ * The abstract class try to override the getTailLength() method but closing the visibility so
+ * it is not allowed
  * 
- * The Cougar class has a compile error beacause not implement the abstract method getTailLength()
+ * The Cougar class has a compile error because not implement the abstract method getTailLength()
  * to override it (that class has a overload method getTailLength(int length) but is not implement
  * the correct abstract method)
  * 
