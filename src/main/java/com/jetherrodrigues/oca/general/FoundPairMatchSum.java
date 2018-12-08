@@ -20,10 +20,10 @@ public class FoundPairMatchSum {
 		int[] array = { -1, 3, 6, 9, 5 };
 		int sumToMatch = 8;
 		
-		hasPairToMatchSum(array, sumToMatch);
+		searchPairToMatchSum(array, sumToMatch);
 	}
 	
-	private static void hasPairToMatchSum(int[] toSearch, int sumToMatch) {
+	private static void searchPairToMatchSum(int[] toSearch, int sumToMatch) {
 		List<Integer> convertedToSearch = new ArrayList<>();
 		for (int i : toSearch) {
 			convertedToSearch.add(i);
